@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   border-radius: 12px;
-  color: rgb(6, 183, 155);
+  color: rgb(28, 110, 177);
 }
 
 button {
@@ -18,5 +18,5 @@ button {
   padding: 3px 8px;
   border-radius: 4px;
   color: rgb(191, 223, 252);
-  background-color: rgb(6, 183, 155);
+  background-color: rgb(28, 110, 177);
 }
