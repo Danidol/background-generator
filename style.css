@@ -15,7 +15,7 @@ body {
 button {
   cursor: pointer;
   border-style: none;
-  padding: 3px 8px;
+  padding: 5px 8px;
   border-radius: 4px;
   color: rgb(191, 223, 252);
   background-color: rgb(28, 110, 177);
