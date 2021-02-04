@@ -1,5 +1,6 @@
 const btn = document.querySelector("button")
 const body = document.querySelector("body")
+const container = document.querySelector(".container")
 function backgroundChanger() {
   let randomColor = function randomNumber(min, max) {
     return Math.round(Math.random() * (max - min)) + min
@@ -7,12 +8,13 @@ function backgroundChanger() {
   let r = randomColor(0, 255)
   let g = randomColor(0, 255)
   let b = randomColor(0, 255)
-
   return `rgb(${r}, ${g}, ${b})`
 }
 
 btn.addEventListener("click", () => {
-  body.style.backgroundColor = backgroundChanger()
+  let color = backgroundChanger()
+  body.style.backgroundColor = color
+  container.style.color = color
 })
 // another solution
 
