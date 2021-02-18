@@ -20,4 +20,13 @@ button {
   border-radius: 4px;
   color: rgb(191, 223, 252);
   background-color: rgb(28, 110, 177);
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(23, 86, 138);
+}
+
+button:focus {
+  outline: none;
 }

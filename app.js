@@ -1,6 +1,7 @@
 const btn = document.querySelector("button")
 const body = document.querySelector("body")
 const container = document.querySelector(".container")
+
 function backgroundChanger() {
   let randomColor = function randomNumber(min, max) {
     return Math.round(Math.random() * (max - min)) + min
@@ -16,6 +17,7 @@ btn.addEventListener("click", () => {
   body.style.backgroundColor = color
   container.style.color = color
 })
+
 // another solution
 
 // const btn = document.querySelector("button")
@@ -28,5 +30,7 @@ btn.addEventListener("click", () => {
 // }
 
 // btn.addEventListener("click", () => {
-//   body.style.backgroundColor = backgroundChanger()
+//   let color = backgroundChanger()
+//   body.style.backgroundColor = color
+//   container.style.color = color
 // })
